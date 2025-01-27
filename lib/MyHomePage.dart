@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
   bool _spechEnabled = false;
   String _wordsSpoken = "";
   final GeminiProcessingService _geminiService =
-  GeminiProcessingService(flutterTts: FlutterTts(), apiKey: 'AIzaSyBTvsDIfoK6N7GGXA6ULSHEQji17Bj1QCM');
+  GeminiProcessingService(flutterTts: FlutterTts(), apiKey: 'YOUR_API_KEY');
   ValueNotifier<bool> _isVideoRecording = ValueNotifier(false);
   ValueNotifier<bool> _isListening = ValueNotifier(false);
   String _lastWords = '';
